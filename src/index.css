@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Martel', 'Rozha One', 'Noto Serif Devanagari', serif;
+    --font-serif: 'Noto Serif Devanagari', 'Martel', serif;
+    --font-sans: 'Noto Sans Devanagari', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-serif);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-devanagari-serif {
+  font-family: 'Noto Serif Devanagari', 'Martel', serif;
+}
+
+.font-devanagari-heading {
+  font-family: 'Martel', 'Rozha One', 'Noto Serif Devanagari', serif;
+}
+
+.font-devanagari-sans {
+  font-family: 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 120, 110, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 120, 110, 0.45);
+}
+
+/* Drop-cap effect */
+.nepali-drop-cap::first-letter {
+  float: left;
+  font-family: 'Martel', 'Rozha One', serif;
+  font-size: 3.5rem;
+  line-height: 0.85;
+  padding-right: 0.65rem;
+  padding-top: 0.15rem;
+  font-weight: 700;
+  color: #9f1239;
+}

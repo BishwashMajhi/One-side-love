@@ -1,0 +1,6 @@
+{
+  "name": "अधुरो अध्याय 🥀 (Adhuro Adhyaya)",
+  "description": "नेपाली साहित्यिक संस्मरण—कक्षाको पहिलो भेट, मौन प्रेम, स्वीकार र जीवनको सबैभन्दा सुन्दर अधुरो अध्यायको मर्मस्पर्शी डिजिटल कथा।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
